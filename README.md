@@ -5,6 +5,12 @@ Este repositório documenta meu **primeiro protótipo de automação**, desenvol
 ## 📖 O Nascimento do Projeto (Contexto)
 Este fluxo foi criado na época em que eu trabalhava no setor administrativo como **Jovem Aprendiz**. Minha rotina envolvia a renomeação manual de centenas de documentos, principalmente **contracheques**. Identifiquei que o tempo gasto nesta tarefa mecânica era um gargalo para o setor e decidi aplicar lógica computacional para otimizar o processo através de RPA.
 
+### 🛠️ Especificações Técnicas
+- **Plataforma:** `Power Automate Desktop`.
+- **Ação de Extração:** `Extrair texto do PDF`.
+- **Variáveis de Fluxo:** `%ExtractedPDFText%`, `%TextList%` e `%NOME%`.
+- **Lógica de Nome:** `Contracheque_2025_%NOME%`.
+
 ## 📝 O Problema (Business Case)
 A organização manual de documentos gerava impactos negativos na operação:
 - **Volume:** Fluxo constante de centenas de arquivos semanais.
