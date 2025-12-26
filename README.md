@@ -15,7 +15,7 @@ A organização manual de documentos gerava impactos negativos na operação:
 Desenvolvi um fluxo de **RPA (Robotic Process Automation)** no **Microsoft Power Automate Desktop**. O robô realiza a leitura inteligente do conteúdo e a padronização automática dos arquivos.
 
 ### 🔍 Detalhamento Técnico do Fluxo
-Conforme documentado no [print do fluxo](docs/fluxo-automacao.png), a automação executa as seguintes etapas:
+Conforme documentado no [print do fluxo](https://github.com/LariMarquess/rpa-nomenclatura-arquivos/blob/f41c15e9a810ecb51854bbec5aff9a25259fe23b/docs/fluxo-automacao-power-automate.png), a automação executa as seguintes etapas:
 1. **Mapeamento:** Obtém todos os arquivos brutos em uma pasta específica do OneDrive/SharePoint.
 2. **Loop de Processamento:** Inicia um ciclo "For each" para tratar cada documento individualmente.
 3. **Extração de Dados (OCR):** Extrai todo o conteúdo de texto do PDF para uma variável temporária.
